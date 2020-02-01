@@ -1,12 +1,15 @@
 import React from 'react';
 import { selectSong } from '../actions';
+import SongList from './SongList';
 
 const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        Hello App 33
-      </header>
+    <div className="ui container grid">
+      <div className="ui row">
+        <div className="column eight row">
+          <SongList />
+        </div>
+      </div>
     </div>
   );
 }
