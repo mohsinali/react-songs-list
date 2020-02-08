@@ -1,12 +1,14 @@
-import jsonPlaceholder from '../apis';
-export const fetchPosts = () => {
-  return function () {
-    const response = await jsonPlaceholder.get('/posts');
+import jsonPlaceholder from '../apis/jsonPlaceholder';
+// export const fetchPosts = () => {
+//   return async function (dispatch, getState) {
+//     const response = await jsonPlaceholder.get('/posts');
+//     dispatch({ type: 'FETCH_POSTS', payload: response });
+//   }
+// };
 
-    return {
-      type: 'FETCH_POSTS',
-      payload: response
-    };
-  }
-};
+// Shortened syntax
+export const fetchPosts = () => async dispatch => {
+  const response = await jsonPlaceholder.get('/posts');
+  dispatch({ type: 'FETCH_POSTS', payload: response });
+}
 
