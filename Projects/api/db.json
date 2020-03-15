@@ -1,3 +1,9 @@
 {
-  "streams": []
+  "streams": [
+    {
+      "title": "New Volvo Series",
+      "description": "Some documentation.",
+      "id": 1
+    }
+  ]
 }
