@@ -4,6 +4,11 @@
       "title": "New Volvo Series",
       "description": "Some documentation.",
       "id": 1
+    },
+    {
+      "title": "New Stream",
+      "description": "some desc",
+      "id": 2
     }
   ]
 }
