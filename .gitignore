@@ -3,6 +3,7 @@
 # dependencies
 /Projects/blog/node_modules
 /Projects/api/node_modules
+/Projects/rtmpserver/node_modules
 #/Projects/songs/node_modules
 /.pnp
 .pnp.js
